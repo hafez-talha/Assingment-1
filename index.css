@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-color: rgba(255, 192, 203, 0.287);
+}
+
+#flower-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 2200px;
+    margin: auto;
+}
+
+.flower-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.flower-title p{
+    color: gray;
+    margin: 22px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flower-title button{
+    padding: 15px 28px;
+    background-color: rgba(232, 8, 8, 0.846);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-flower-image{
+    padding-top: 60px;
+}
+
+/* first section start here */
+
+#feature-flower{
+   width: 1800px;
+   margin: auto;
+   padding: 70px;
+}
+
+.feature-flower-title{
+    text-align: center;
+}
+
+.feature-flower-title >h3{
+    padding: 19px 0px;
+    font-size: 28px;
+}
+
+.feature-flower-title >p{
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.feature-flower-pink-area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature-flower-pink-area-sub >img{
+    width: 100%;
+    height: 100%;
+}
+
+.feature-flower-pink-area-sub >img{
+    width: 160px;  
+}
+
+.feature-flower-img1{
+    background-color: rgba(255, 192, 203, 0.421);
+    padding: 40px 100px;
+    border-radius: 180px 180px 0px 0px;
+}
+
+.feature-flower-img2{
+    background-color: rgba(135, 207, 235, 0.378);
+    padding: 40px 100px;
+    border-radius: 180px 180px 0px 0px;
+}
+
+.feature-flower-img3{
+    background-color: rgba(128, 128, 128, 0.22);
+    padding: 40px 100px;
+    border-radius: 180px 180px 0px 0px;
+}
+
+.feature-flower-pink-area-sub >h4{
+    margin: 0px 120px;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+#feature-flower-icon{
+    display: flex;
+    width: 1450px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-top: 160px;
+    margin-left: 180px;
+    background-color: gainsboro;
+    justify-content: space-evenly;
+}
+
+#feature-flower-icon >img{
+    width: 100%;
+}
+
+#feature-flower-icon img{
+    width: 50px;
+}
+
+.feature-flower-icon-each{
+    margin-left: 80px;
+    padding-bottom: 12px;
+}
+
+.feature-flower-icon-differnt{
+    margin-left: 35px;
+    padding-bottom: 12px;
+}
+
+
+/* second section start here */
+
+#Marrid-section-whole-area{
+    background: linear-gradient(rgb(255, 192, 252),rgb(0, 247, 255) );
+    padding: 30px 0px;
+    padding-bottom: 75px;
+}
+
+.Married-life-description{
+    margin-left: 650px;
+    font-size: 30px;
+    padding: 20px 0px;
+    color: rgba(191, 51, 114, 0.982);
+}
+
+#Married-card{
+    display: flex;
+    width: 1350px;
+    margin: auto;
+    justify-content: space-around;
+    padding: 60px;
+    background-image: url("./image/Flower Asset/roses-many-red-surface-wallpaper-preview.jpg"), linear-gradient(rgb(59, 167, 181), rgb(52, 39, 39));
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 5px 15px white;
+}
+
+#Married-card p{
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+}
+
+#Married-card img{
+    width: 100%;
+    height: 100%;
+}
+
+#Married-card img{
+    width: 350px;
+}
+
+.Married-every-single-card:hover{
+    box-shadow: 0px 0px 5px 10px whitesmoke;
+}
+
+
+/* third section start here */
+
+#rose-day-whole-area{
+    padding: 100px 0px;
+    background: linear-gradient(rgb(133, 48, 91),rgb(145, 145, 14));
+}
+
+#rose-day-area{
+    width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.rose-day-title h2{
+    font-size: 35px;
+    padding: 20px;
+    font-style: oblique;
+    color: rgb(162, 62, 62);
+}
+
+.rose-day-title>h2:hover{
+    text-shadow: 2px 2px 5px red;
+}
+
+.rose-day-title p{
+    font-size: 24px;
+    color: rgb(9, 210, 143);
+    text-align: center;
+    transition: .5s;
+}
+
+.rose-day-title p:hover{
+    font-size: 30px
+}
+
+.rose-day-area-img{
+    width: 400px;
+}
+
+.rose-day-image-under-text{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(240, 21, 127, 0.906);
+    transition: .6s;
+}
+
+.rose-day-image-under-text:hover{
+    background:rgba(166, 32, 110, 0.195) ;
+    font-size:40px;
+}
+
+/* four section start here */
+
+#sale-up-area{
+    background-color: rgba(255, 192, 203, 0.287);;
+}
+
+#sale-up-section{
+    display: flex;
+    width: 1800px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sale-up-description{
+    margin-left: 150px;
+}
+
+.sale-up-description h2{
+    text-align: center;
+    padding-top: 130px;
+    font-size: 28px;
+}
+
+.sale-up-description p{
+    color: gray;
+    font-size: 18px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.sale-up-description button{
+    font-size: 20px;
+    padding: 17px 30px;
+    border: none;
+    background: rgb(189, 31, 31);
+    color: white;
+    margin: 0px 200px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+.sale-up-description button:hover{
+    background-color: rgba(255, 255, 255, 0.189);
+    border: 3px solid palegreen;
+    color: rgb(255, 0, 195);
+    border-radius: 8px;
+}
+
+.sale-up-img{
+    padding: 60px 0px;
+    margin-right: 140px;
+}
+
+/* five section start here */
+
+#Insta-whole-area{
+}
+
+.Insta-section{
+    width: 1450px;
+    margin: 0 auto;
+}
+
+.Insta-descrip-section{
+    text-align: center;
+}
+
+.Insta-descrip-section h2{
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.Insta-descrip-section p{
+    padding: 30px 0px;
+    color: gray;
+}
+
+.Insta-photo-section{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+/* six section start here */
+
+#search-area-whole{
+    background-image: url("image/Flower Asset/Rectangle\ 9.png");
+    width: 1450px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-area-title{
+    width: 100%;
+    text-align: center;
+}
+
+#search-area-title  h2{
+    margin-bottom: 12px;
+}
+
+.search-button{
+    width: 50%;
+    margin: 20px auto 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-button button{
+   padding: 15px 30px;
+   margin-left: 5px;
+   border: none;
+   background-color: rgba(230, 7, 96, 0.881);
+   color: white;
+   font-size: 15px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.search-button input{
+    width: 75%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* fotter section start here */
+
+#footer-whole-area{
+    background-color: black;
+    height: 300px;
+}
+
+
+#flower-section-area{
+    width: 1450px;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+#flower-section-area h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#flower-section-area span{
+    color: brown;
+}
+
+#flower-section-area p{
+    text-align: center;
+    margin: 15px 0px;
+    color: white;
+}
+
+.last-text{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.456) !important;
+}
+
+
+
+
+
